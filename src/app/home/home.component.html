@@ -1,0 +1,120 @@
+<div class="home-content">
+        <div class="wrapper">
+         <input type="checkbox" id="btn" hidden>
+         <label for="btn" class="menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+         </label>
+         <nav id="sidebar">
+            <div class="title">
+               Menu
+            </div>
+            <ul class="list-items">
+               <li><a href="/home"><i></i>Home</a></li>
+               <li><a href="/settings"><i></i>Settings</a></li>
+               <li><a href="/login"><i ></i>Log-out</a></li>
+            </ul>
+         </nav>
+      </div>
+    <div class="home-page">
+        <nav class="db-tittle">Dash board</nav>
+        <div class="card">
+            <div class="beging box">
+                Beging
+            </div>
+            <div class="in-prog box">
+                In progress
+            </div>
+            <div class="finish box">
+                Finishing
+            </div>
+            <div class="cancel box">
+                Canceled
+            </div>
+        </div>
+        <div class="card2">
+            <h1 class="title">My calendar</h1>
+            <div class="all-tasks">
+                <h2 class="task-list-title">My lists</h2>
+                <ul class="task-list">
+                  <li class="list-name active-list">Work</li>
+                  <li class="list-name">Shopping</li>
+                  <li class="list-name">Shopping</li>
+                </ul>
+          
+                <form action="">
+                  <input 
+                    type="text"
+                    class="new list"
+                    placeholder="new list name"
+                    aria-label="new list name"
+                  />
+                  <button class="btn create" aria-label="create new list">+</button>
+                </form>
+              </div>
+              <div class="todo-list">
+                <div class="todo-header">
+                  <h2 class="list-title">Work</h2>
+                  <p class="task-count">3 tasks remaining</p>
+                </div>
+          
+                <div class="todo-body">
+                  <div class="tasks">
+                    <div class="task">
+                      <input 
+                        type="checkbox"
+                        id="task-1"
+                      />
+                      <label for="task-1">
+                        <span class="custom-checkbox"></span>
+                        another task
+                      </label>
+                    </div>
+                    <!-- /task-1 -->
+          
+                    <div class="task">
+                        <input 
+                          type="checkbox"
+                          id="task-2"
+                        />
+                        <label for="task-2">
+                          <span class="custom-checkbox"></span>
+                          a second task
+                        </label>
+                      </div>
+                      <!-- /task-2 -->
+
+                      <div class="task">
+                        <input 
+                          type="checkbox"
+                          id="task-2"
+                        />
+                        <label for="task-2">
+                          <span class="custom-checkbox"></span>
+                          a third task
+                        </label>
+                      </div>  
+                  </div>
+                  <div class="new-task-creator">
+                    <form action="">
+                        <input 
+                          type="text"
+                          class="new task"
+                          placeholder="new task name"
+                          aria-label="new task name"
+                        />
+                        <button class="btn create" aria-label="create new task">+</button>
+                      </form>
+                </div>
+        
+                <div class="delete-stuff">
+                  <button class="btn delete">Clear completed tasks</button>
+                  <button class="btn delete">Delete list</button>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+</div>
