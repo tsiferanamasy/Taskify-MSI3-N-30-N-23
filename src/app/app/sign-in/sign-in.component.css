@@ -1,0 +1,56 @@
+.sign-comp{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    width: 35%;
+    margin-top: 100px;
+    padding-bottom: 3vh;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+}
+.sign-tittle{
+    text-align: center;
+    color: ghostwhite;
+    font-size: 48px;
+    font-family: gabriola;
+}
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    /*width: 50%;*/
+    align-items: center;
+    justify-items: center;
+}
+.inp{
+    width: 50%;
+    height: 4.5vh;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 5px;
+}  
+.sign-btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.btn{
+    background-color:ghostwhite;
+    border-radius: 10px;
+    width: 50%;
+    height: 4vh;
+    margin-top: 3vh;
+    padding-top: 0.9vh;
+}
+.btn-txt{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+
+.btn-sign:hover, .btn-sign:hover{
+    background-color: rgba(165, 42, 99, 0.144);
+}
